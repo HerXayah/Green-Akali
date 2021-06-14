@@ -1,0 +1,214 @@
+/**
+ * @name Akali - Silent Asassin
+ * @description Made by ♡Lisa~#0004
+ * @author Azariel#0004
+ * @version 1.0.0
+ * @authorId 202740603790819328
+ * @donate https://www.tipeeestream.com/princessakari/donation
+ * @source https://raw.githubusercontent.com/PrincessAkira/kda-discord/main/
+ * @updateUrl https://raw.githubusercontent.com/PrincessAkira/kda-discord/main/
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+:root {
+    --background-tertiary: transparent !important;
+    --background-primary: transparent !important;
+    --background-secondary: transparent !important;
+    --background-tertiary: transparent !important;
+    --background-secondary-alt: transparent !important;
+    --background-mentioned: rgba(0, 255, 0, 0.281) !important;
+    --info-warning-foreground: transparent !important;
+    --text-muted: white !important;
+    --channeltextarea-background: transparent !important;
+    --scrollbar-auto-thumb: lightgreen !important;
+    --brand-experiment: darkgreen !important;
+}
+
+body {
+    background-color: transparent !important;
+    font-family: 'Comfortaa', monospace !important;
+}
+
+.scrollerSpacer-avRLaA {
+    height: 10px;
+}
+
+#app-mount {
+    background-image: url(https://i.imgur.com/wFkwnZn.jpg) !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.group-spacing-16,
+.groupStart-23k01U,
+.contents-2mQqc9 {
+    margin-top: 0px !important;
+}
+
+.form-2fGMdU {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+
+.scrollableContainer-2NUZem {
+    color: white;
+    width: 100%;
+}
+
+.channelTextArea-rNsIhG {
+    margin-bottom: 9px;
+    top: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.scroller-2LSbBU {
+    bottom: 5px;
+    left: -1px;
+}
+
+.header-23xsNx {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.username-1A8OIy, .title-eS5yk3 {
+    animation: colorRotate 12s linear 0s infinite;
+}
+
+.container-2lgZY8,
+.standardSidebarView-3F1I7i {
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+.divider-3_HH5L {
+    display: none;
+}
+
+.message-2qnXI6:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* SUPPORTED PLUGINS -> HideChannels */
+.sidebar-2K8pFh.hideElement .container-3baos1 {
+    position: absolute;
+    overflow: hidden;
+}
+
+.sidebar-2K8pFh.hideElement .container-3baos1,
+.sidebar-2K8pFh.hideElement .container-3baos1:before {
+    background-color: transparent !important;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+.popoutRight-1veHKi.noArrow-2foL9g {
+    overflow: hidden;
+}
+
+.wrapper-2qzCYF {
+    background-color: none;
+}
+
+.sidebar-2K8pFh,
+.guilds-1SWlCJ {
+    border: 2px solid lightgreen;
+    border-right: 0;
+    border-radius: 0 !important;
+}
+
+.container-1r6BKw.themed-ANHk51 {
+    border-bottom: 2px solid lightgreen;
+    border-radius: 0 !important;
+}
+
+.tutorialContainer-2sGCg9 {
+    margin-top: 5px;
+}
+
+.wordmarkWindows-1v0lYD,
+.wordmark-2iDDfm {
+    display: none;
+}
+
+.fontSize16Padding-3Wk7zP {
+    text-align: center;
+    color: lightgreen;
+    font-size: 17px;
+}
+
+.container-3baos1,
+.form-2fGMdU {
+    border-top: 2px solid lightgreen;
+    border-radius: 0 !important;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.bar-2Qqk5Z {
+    background-color: gray !important;
+}
+
+.barFill-23-gu- {
+    background-color: green;
+}
+
+.header-2RyJ0Y {
+    color: green;
+    text-align: center;
+    text-decoration: underline green;
+}
+
+.chat-3bRxxu {
+    border: 2px solid lightgreen;
+    border-radius: 0 !important;
+}
+
+.bd-button{
+    background-color: darkgreen;
+}
+
+.content-3QAtGj {
+    color: white;
+}
+
+.headerText-2F0828, .name-uJV0GL {
+    color: lightgreen;
+}
+
+/*
+*
+* Animation Section
+*
+*/
+
+@keyframes colorRotate {
+    from {
+        color: rgb(255, 0, 0);
+    }
+
+    16.6% {
+        color: rgb(255, 0, 255);
+    }
+
+    33.3% {
+        color: orange;
+    }
+
+    50% {
+        color: rgb(0, 255, 255);
+    }
+
+    66.6% {
+        color: rgb(0, 255, 0);
+    }
+
+    83.3% {
+        color: rgb(255, 255, 0);
+    }
+
+    to {
+        color: rgb(255, 0, 0);
+    }
+}
