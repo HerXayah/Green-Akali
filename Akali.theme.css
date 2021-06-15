@@ -273,6 +273,30 @@ body {
     color: lightgreen;
 }
 
+.autocompleteInner-zh20B_ {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 2px solid lightgreen;
+    border-radius: 0 !important;
+}
+
+.typing-2GQL18 {
+    font-size: 8px;
+    left: 7%;
+}
+
+.ellipsis-19qdx6 {
+    display: none;
+}
+
+.selected-1Tbx07 {
+    background-color: rgba(187, 187, 187, 0.67) !important;
+    transition: background-color .7s;
+}
+
+.autocomplete-1vrmpx {
+    background-color: transparent !important;
+}
+
 /*
 *
 * Animation Section
