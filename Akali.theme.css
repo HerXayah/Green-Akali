@@ -147,10 +147,10 @@ body {
 }
 
 .drawerSizingWrapper-17Mss4 {
-        border: 2px solid lightgreen;
-        border-bottom: 0;
-        top: -1px;
-        border-radius: 0 !important;
+    border: 2px solid lightgreen;
+    border-bottom: 0;
+    top: -1px;
+    border-radius: 0 !important;
 }
 
 .container-1r6BKw.themed-ANHk51 {
@@ -252,10 +252,11 @@ body {
     border: lightgreen 2px solid;
 }
 
-.header-2RyJ0Y {
-    color: green;
-    text-align: center;
-    text-decoration: underline green;
+.header-2RyJ0Y,
+.header-2SF4Nh {
+    color: green !important;
+    text-align: center !important;
+    text-decoration: underline green !important;
 }
 
 .chat-3bRxxu {
@@ -313,7 +314,6 @@ body {
     display: none;
 }
 
-
 /*
 *
 * BetterDiscord Stuff
@@ -324,7 +324,7 @@ body {
     background-color: rgba(46, 46, 46, 0.67);
 }
 
-.bd-button{
+.bd-button {
     background-color: darkgreen;
 }
 
