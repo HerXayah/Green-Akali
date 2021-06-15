@@ -70,6 +70,10 @@ body {
     height: 100%;
 }
 
+.itemCard-v9viV7 {
+    margin-top: 10px;
+}
+
 .scroller-2LSbBU {
     bottom: 5px;
     left: -1px;
@@ -173,6 +177,11 @@ body {
 .wordmarkWindows-1v0lYD,
 .wordmark-2iDDfm {
     display: none;
+}
+
+.nowPlayingColumn-2sl4cE,
+.container-1r6BKw.themed-ANHk51 {
+    backdrop-filter: blur(4px);
 }
 
 .fontSize16Padding-3Wk7zP,
