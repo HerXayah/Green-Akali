@@ -23,6 +23,8 @@
     --channeltextarea-background: transparent !important;
     --scrollbar-auto-thumb: lightgreen !important;
     --brand-experiment: darkgreen !important;
+    --channels-default: white !important;
+    --scrollbar-thin-thumb: lightgreen !important;
 }
 
 body {
@@ -47,7 +49,12 @@ body {
     margin-top: 0px !important;
 }
 
-.form-2fGMdU {
+.container-1D34oG {
+    background-color: transparent !important;
+}
+
+.form-2fGMdU,
+.drawerSizingWrapper-17Mss4 {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 20px;
 }
@@ -64,12 +71,17 @@ body {
     height: 100%;
 }
 
+.itemCard-v9viV7 {
+    margin-top: 10px;
+}
+
 .scroller-2LSbBU {
     bottom: 5px;
     left: -1px;
 }
 
-.username-1A8OIy, .title-eS5yk3 {
+.username-1A8OIy,
+.title-eS5yk3 {
     animation: colorRotate 12s linear 0s infinite;
 }
 
@@ -82,8 +94,14 @@ body {
     display: none;
 }
 
-.message-2qnXI6:hover {
-    background-color: rgba(0, 0, 0, 0.6);
+.compact-T3H92H.wrapper-2a6GCs,
+.cozy-3raOZG.wrapper-2a6GCs {
+    padding-top: 0rem;
+}
+
+.message-2qnXI6:hover,
+.wrapper-2a6GCs:hover {
+    background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 /* SUPPORTED PLUGINS -> HideChannels */
@@ -114,6 +132,27 @@ body {
     border-radius: 0 !important;
 }
 
+.nowPlayingColumn-2sl4cE,
+.membersWrap-2h-GB4 {
+    border-left: 2px solid lightgreen;
+}
+
+.scroller-2ZPeAD {
+    border: 0;
+}
+
+.container-1D34oG {
+    border: 2px solid lightgreen;
+    border-radius: 0 !important;
+}
+
+.drawerSizingWrapper-17Mss4 {
+        border: 2px solid lightgreen;
+        border-bottom: 0;
+        top: -1px;
+        border-radius: 0 !important;
+}
+
 .container-1r6BKw.themed-ANHk51 {
     border-bottom: 2px solid lightgreen;
     border-radius: 0 !important;
@@ -123,15 +162,73 @@ body {
     margin-top: 5px;
 }
 
+.title-29uC1r {
+    font-size: 20px;
+    color: lightgreen !important;
+}
+
+.container-2Pjhx-:hover {
+    border: 0;
+    box-shadow: 0;
+}
+
+.container-2Pjhx- {
+    transition: background-color .6s;
+    margin-top: 2px;
+}
+
+.embedFull-2tM8-- {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-left: springgreen 4px solid !important;
+    border-bottom: springgreen 4px solid !important;
+}
+
 .wordmarkWindows-1v0lYD,
 .wordmark-2iDDfm {
     display: none;
 }
 
-.fontSize16Padding-3Wk7zP {
+.nowPlayingColumn-2sl4cE,
+.container-1r6BKw.themed-ANHk51 {
+    backdrop-filter: blur(4px);
+}
+
+.fontSize16Padding-3Wk7zP,
+.nowPlayingColumn-2sl4cE {
     text-align: center;
     color: lightgreen;
     font-size: 17px;
+}
+
+.cooldownWrapper-3joyFc,
+.typing-2GQL18,
+.base-gE7OpD {
+    text-align: center;
+    font-size: 12px;
+}
+
+.wrapper-3D2qGf:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 13px lightgreen;
+}
+
+.containerDefault-3tr_sE {
+    padding-top: 4px;
+}
+
+.header-2V-4Sw {
+    border-bottom: lightgreen 2px solid;
+}
+
+.wrapper-3D2qGf {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: 2px solid lightgreen;
+    transition: box-shadow .6s;
+}
+
+.inset-3sAvek {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .container-3baos1,
@@ -149,6 +246,12 @@ body {
     background-color: green;
 }
 
+.unread-1xRYoj {
+    background-color: rgba(0, 0, 0, 0.67);
+    opacity: 100%;
+    border: lightgreen 2px solid;
+}
+
 .header-2RyJ0Y {
     color: green;
     text-align: center;
@@ -160,14 +263,41 @@ body {
     border-radius: 0 !important;
 }
 
-
+.bd-button {
+    background-color: darkgreen;
+}
 
 .content-3QAtGj {
     color: white;
 }
 
-.headerText-2F0828, .name-uJV0GL {
+.headerText-2F0828,
+.name-uJV0GL {
     color: lightgreen;
+}
+
+.autocompleteInner-zh20B_ {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 2px solid lightgreen;
+    border-radius: 0 !important;
+}
+
+.typing-2GQL18 {
+    font-size: 8px;
+    left: 7%;
+}
+
+.ellipsis-19qdx6 {
+    display: none;
+}
+
+.selected-1Tbx07 {
+    background-color: rgba(187, 187, 187, 0.67) !important;
+    transition: background-color .7s;
+}
+
+.autocomplete-1vrmpx {
+    background-color: transparent !important;
 }
 
 .header-23xsNx {
@@ -197,6 +327,7 @@ body {
 .bd-button{
     background-color: darkgreen;
 }
+
 
 /*
 *
