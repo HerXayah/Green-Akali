@@ -23,6 +23,8 @@
     --channeltextarea-background: transparent !important;
     --scrollbar-auto-thumb: lightgreen !important;
     --brand-experiment: darkgreen !important;
+    --channels-default: white !important;
+    --scrollbar-thin-thumb: lightgreen !important;
 }
 
 body {
@@ -192,6 +194,14 @@ body {
     box-shadow: 0px 0px 13px lightgreen;
 }
 
+.containerDefault-3tr_sE {
+    padding-top: 4px;
+}
+
+.header-2V-4Sw {
+    border-bottom: lightgreen 2px solid;
+}
+
 .wrapper-3D2qGf {
     background-color: rgba(0, 0, 0, 0.6) !important;
     border: 2px solid lightgreen;
@@ -216,6 +226,12 @@ body {
 
 .barFill-23-gu- {
     background-color: green;
+}
+
+.unread-1xRYoj {
+    background-color: rgba(0, 0, 0, 0.67);
+    opacity: 100%;
+    border: lightgreen 2px solid;
 }
 
 .header-2RyJ0Y {
