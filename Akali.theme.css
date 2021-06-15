@@ -69,11 +69,6 @@ body {
     left: -1px;
 }
 
-.header-23xsNx {
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
 .username-1A8OIy, .title-eS5yk3 {
     animation: colorRotate 12s linear 0s infinite;
 }
@@ -165,9 +160,7 @@ body {
     border-radius: 0 !important;
 }
 
-.bd-button{
-    background-color: darkgreen;
-}
+
 
 .content-3QAtGj {
     color: white;
@@ -175,6 +168,34 @@ body {
 
 .headerText-2F0828, .name-uJV0GL {
     color: lightgreen;
+}
+
+.header-23xsNx {
+    margin-bottom: 1px;
+}
+
+.blockquoteContainer-U5TVEi {
+    background-color: rgba(156, 156, 156, 0.7);
+    padding: 2px;
+}
+
+.blockquoteDivider-2hH8H6 {
+    display: none;
+}
+
+
+/*
+*
+* BetterDiscord Stuff
+*
+*/
+
+.floating-window.resizable {
+    background-color: rgba(46, 46, 46, 0.67);
+}
+
+.bd-button{
+    background-color: darkgreen;
 }
 
 /*
