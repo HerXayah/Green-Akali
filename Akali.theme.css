@@ -47,6 +47,10 @@ body {
     margin-top: 0px !important;
 }
 
+.container-1D34oG {
+    background-color: transparent !important;
+}
+
 .form-2fGMdU {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 20px;
@@ -74,7 +78,8 @@ body {
     margin-top: 10px;
 }
 
-.username-1A8OIy, .title-eS5yk3 {
+.username-1A8OIy,
+.title-eS5yk3 {
     animation: colorRotate 12s linear 0s infinite;
 }
 
@@ -87,8 +92,14 @@ body {
     display: none;
 }
 
-.message-2qnXI6:hover {
-    background-color: rgba(0, 0, 0, 0.6);
+.compact-T3H92H.wrapper-2a6GCs,
+.cozy-3raOZG.wrapper-2a6GCs {
+    padding-top: 0rem;
+}
+
+.message-2qnXI6:hover,
+.wrapper-2a6GCs:hover {
+    background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 /* SUPPORTED PLUGINS -> HideChannels */
@@ -119,6 +130,20 @@ body {
     border-radius: 0 !important;
 }
 
+.nowPlayingColumn-2sl4cE,
+.membersWrap-2h-GB4 {
+    border-left: 2px solid lightgreen;
+}
+
+.scroller-2ZPeAD {
+    border: 0;
+}
+
+.container-1D34oG {
+    border: 2px solid lightgreen;
+    border-radius: 0 !important;
+}
+
 .container-1r6BKw.themed-ANHk51 {
     border-bottom: 2px solid lightgreen;
     border-radius: 0 !important;
@@ -128,15 +153,49 @@ body {
     margin-top: 5px;
 }
 
+.container-2Pjhx-:hover {
+    border: 0;
+    box-shadow: 0;
+}
+
+.container-2Pjhx- {
+    transition: background-color .6s;
+    margin-top: 2px;
+}
+
 .wordmarkWindows-1v0lYD,
 .wordmark-2iDDfm {
     display: none;
 }
 
-.fontSize16Padding-3Wk7zP {
+.fontSize16Padding-3Wk7zP,
+.nowPlayingColumn-2sl4cE {
     text-align: center;
     color: lightgreen;
     font-size: 17px;
+}
+
+.cooldownWrapper-3joyFc,
+.typing-2GQL18,
+.base-gE7OpD {
+    text-align: center;
+    font-size: 12px;
+}
+
+.wrapper-3D2qGf:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 13px lightgreen;
+}
+
+.wrapper-3D2qGf {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: 2px solid lightgreen;
+    transition: box-shadow .6s;
+}
+
+.inset-3sAvek {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .container-3baos1,
@@ -165,7 +224,7 @@ body {
     border-radius: 0 !important;
 }
 
-.bd-button{
+.bd-button {
     background-color: darkgreen;
 }
 
@@ -173,7 +232,8 @@ body {
     color: white;
 }
 
-.headerText-2F0828, .name-uJV0GL {
+.headerText-2F0828,
+.name-uJV0GL {
     color: lightgreen;
 }
 
