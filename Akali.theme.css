@@ -53,7 +53,8 @@ body {
     background-color: transparent !important;
 }
 
-.form-2fGMdU {
+.form-2fGMdU,
+.drawerSizingWrapper-17Mss4 {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 20px;
 }
@@ -148,6 +149,13 @@ body {
 .container-1D34oG {
     border: 2px solid lightgreen;
     border-radius: 0 !important;
+}
+
+.drawerSizingWrapper-17Mss4 {
+        border: 2px solid lightgreen;
+        border-bottom: 0;
+        top: -1px;
+        border-radius: 0 !important;
 }
 
 .container-1r6BKw.themed-ANHk51 {
