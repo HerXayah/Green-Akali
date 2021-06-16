@@ -314,19 +314,30 @@ body {
     display: none;
 }
 
+.noChat-18KtBD.wrapper-2qzCYF {
+    background-color: transparent !important;
+}
+
 /*
 *
 * BetterDiscord Stuff
 *
 */
 
-.floating-window.resizable {
-    background-color: rgba(46, 46, 46, 0.67);
+.floating-window.resizable,
+.root-1gCeng {
+    background-color: rgba(46, 46, 46, 0.67) !important;
+}
+
+.root-1gCeng {
+    padding: 10px;
 }
 
 .bd-button {
     background-color: darkgreen;
 }
+
+
 
 
 /*
